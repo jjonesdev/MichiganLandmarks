@@ -12,7 +12,7 @@ import UIKit
 class Landmark {
     
     var image: UIImage
-    var title: String
+    var title: String 
     
     init(image: UIImage, title: String) {
         self.image = image

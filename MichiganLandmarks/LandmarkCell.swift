@@ -13,6 +13,9 @@ class LandmarkCell: UITableViewCell {
     @IBOutlet weak var landmarkImageView: UIImageView!
     @IBOutlet weak var landmarkLabel: UILabel!
     
-    
+    func setImage(setImage: Landmark) {
+        landmarkImageView.image = setImage.image
+        landmarkLabel.text = setImage.title
+    }
     
 }

@@ -12,7 +12,8 @@
 		17D2FA2C21359C0500DB826F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D2FA2A21359C0500DB826F /* Main.storyboard */; };
 		17D2FA2E21359C0600DB826F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D2FA2D21359C0600DB826F /* Assets.xcassets */; };
 		17D2FA3121359C0600DB826F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D2FA2F21359C0600DB826F /* LaunchScreen.storyboard */; };
-		17D2FA3921359D1400DB826F /* Landmarks in Resources */ = {isa = PBXBuildFile; fileRef = 17D2FA3821359D1400DB826F /* Landmarks */; };
+		17D2FA3B2135BBAD00DB826F /* LandmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2FA3A2135BBAD00DB826F /* LandmarkCell.swift */; };
+		17D2FA3D2135BD7300DB826F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2FA3C2135BD7300DB826F /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		17D2FA2D21359C0600DB826F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D2FA3021359C0600DB826F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D2FA3221359C0600DB826F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17D2FA3821359D1400DB826F /* Landmarks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Landmarks; sourceTree = "<group>"; };
+		17D2FA3A2135BBAD00DB826F /* LandmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCell.swift; sourceTree = "<group>"; };
+		17D2FA3C2135BD7300DB826F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				17D2FA2621359C0500DB826F /* AppDelegate.swift */,
 				17D2FA2821359C0500DB826F /* ViewController.swift */,
+				17D2FA3A2135BBAD00DB826F /* LandmarkCell.swift */,
+				17D2FA3C2135BD7300DB826F /* Landmark.swift */,
 				17D2FA2A21359C0500DB826F /* Main.storyboard */,
 				17D2FA2D21359C0600DB826F /* Assets.xcassets */,
 				17D2FA2F21359C0600DB826F /* LaunchScreen.storyboard */,
 				17D2FA3221359C0600DB826F /* Info.plist */,
-				17D2FA3821359D1400DB826F /* Landmarks */,
 			);
 			path = MichiganLandmarks;
 			sourceTree = "<group>";
@@ -127,7 +130,6 @@
 			files = (
 				17D2FA3121359C0600DB826F /* LaunchScreen.storyboard in Resources */,
 				17D2FA2E21359C0600DB826F /* Assets.xcassets in Resources */,
-				17D2FA3921359D1400DB826F /* Landmarks in Resources */,
 				17D2FA2C21359C0500DB826F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D2FA2921359C0500DB826F /* ViewController.swift in Sources */,
+				17D2FA3B2135BBAD00DB826F /* LandmarkCell.swift in Sources */,
 				17D2FA2721359C0500DB826F /* AppDelegate.swift in Sources */,
+				17D2FA3D2135BD7300DB826F /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

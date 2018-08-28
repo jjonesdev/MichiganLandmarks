@@ -68,6 +68,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let controller = storyboard.instantiateViewController(withIdentifier: "LandmarkDetails") as! LandmarkDetails
+        
+        self.navigationController?.pushViewController(controller, animated: true)
+        
+    }
 }
 
 

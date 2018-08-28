@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172865E72135D6A8001CA5EE /* LandmarkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172865E62135D6A8001CA5EE /* LandmarkDetails.swift */; };
 		17D2FA2721359C0500DB826F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2FA2621359C0500DB826F /* AppDelegate.swift */; };
 		17D2FA2921359C0500DB826F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2FA2821359C0500DB826F /* ViewController.swift */; };
 		17D2FA2C21359C0500DB826F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D2FA2A21359C0500DB826F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172865E62135D6A8001CA5EE /* LandmarkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetails.swift; sourceTree = "<group>"; };
 		17D2FA2321359C0500DB826F /* MichiganLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichiganLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D2FA2621359C0500DB826F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D2FA2821359C0500DB826F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				17D2FA2821359C0500DB826F /* ViewController.swift */,
 				17D2FA3A2135BBAD00DB826F /* LandmarkCell.swift */,
 				17D2FA3C2135BD7300DB826F /* Landmark.swift */,
+				172865E62135D6A8001CA5EE /* LandmarkDetails.swift */,
 				17D2FA2A21359C0500DB826F /* Main.storyboard */,
 				17D2FA2D21359C0600DB826F /* Assets.xcassets */,
 				17D2FA2F21359C0600DB826F /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				17D2FA2921359C0500DB826F /* ViewController.swift in Sources */,
 				17D2FA3B2135BBAD00DB826F /* LandmarkCell.swift in Sources */,
 				17D2FA2721359C0500DB826F /* AppDelegate.swift in Sources */,
+				172865E72135D6A8001CA5EE /* LandmarkDetails.swift in Sources */,
 				17D2FA3D2135BD7300DB826F /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

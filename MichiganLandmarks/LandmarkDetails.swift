@@ -17,4 +17,20 @@ class LandmarkDetails: UIViewController {
     @IBOutlet weak var landmarkDetailTitle: UILabel!
     @IBOutlet weak var landmarkParagraph: UILabel!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+       navigationController?.navigationBar.prefersLargeTitles = false
+       setDetails(details: Landmark(image: #imageLiteral(resourceName: "headlands"), title: "Headlands Dark Park", details: "It's dark!"))
+       
+        
+    }
+    
+    func setDetails(details: Landmark) {
+        landmarkDetailsImage.image = details.image
+        landmarkDetailTitle.text = details.title
+        landmarkParagraph.text = details.details
+    }
+        
+    
 }

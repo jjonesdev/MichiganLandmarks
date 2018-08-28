@@ -12,11 +12,13 @@ import UIKit
 class Landmark {
     
     var image: UIImage
-    var title: String 
+    var title: String
+    var details: String
     
-    init(image: UIImage, title: String) {
+    init(image: UIImage, title: String, details: String) {
         self.image = image
         self.title = title
+        self.details = details
     }
     
 }

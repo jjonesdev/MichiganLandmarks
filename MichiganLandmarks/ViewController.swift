@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         // displays data on table view when available
         tableView.delegate = self
         tableView.dataSource = self
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        self.title = "Michigan Landmarks"
+        
     }
 
     
@@ -31,13 +35,13 @@ class ViewController: UIViewController {
         
         var tempImages: [Landmark] = []
         
-        let landmark1 = Landmark(image: #imageLiteral(resourceName: "headlands"), title: "Headlands Dark Sky Park")
-        let landmark2 = Landmark(image: #imageLiteral(resourceName: "lakemichigan"), title: "Lake Michigan")
-        let landmark3 = Landmark(image: #imageLiteral(resourceName: "tire"), title: "I-94 Uniroyal Tire")
-        let landmark4 = Landmark(image: #imageLiteral(resourceName: "MackinawBridge"), title: "Mackinac Bridge")
-        let landmark5 = Landmark(image: #imageLiteral(resourceName: "Nordhouse"), title: "Nordhouse Dunes")
-        let landmark6 = Landmark(image: #imageLiteral(resourceName: "PicturedRocks"), title: "Pictured Rocks")
-        let landmark7 = Landmark(image: #imageLiteral(resourceName: "umich-stadium"), title: "The Big House")
+        let landmark1 = Landmark(image: #imageLiteral(resourceName: "headlands"), title: "Headlands Dark Sky Park", details: "It's very dark here")
+        let landmark2 = Landmark(image: #imageLiteral(resourceName: "lakemichigan"), title: "Lake Michigan", details: "It's very dark here")
+        let landmark3 = Landmark(image: #imageLiteral(resourceName: "tire"), title: "I-94 Uniroyal Tire", details: "It's very dark here")
+        let landmark4 = Landmark(image: #imageLiteral(resourceName: "MackinawBridge"), title: "Mackinac Bridge", details: "It's very dark here")
+        let landmark5 = Landmark(image: #imageLiteral(resourceName: "Nordhouse"), title: "Nordhouse Dunes", details: "It's very dark here")
+        let landmark6 = Landmark(image: #imageLiteral(resourceName: "PicturedRocks"), title: "Pictured Rocks", details: "It's very dark here")
+        let landmark7 = Landmark(image: #imageLiteral(resourceName: "umich-stadium"), title: "The Big House", details: "It's very dark here")
         
         tempImages.append(landmark1)
         tempImages.append(landmark2)
